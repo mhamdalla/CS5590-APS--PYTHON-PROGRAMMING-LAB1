@@ -38,6 +38,7 @@ The output is organized as mentioned in the task and shown in the following Fig.
 ![4](https://user-images.githubusercontent.com/51338728/66729012-fee64480-ee0d-11e9-9b20-f469afcad0a8.png)
 
 III.	Write a python program to create a library Management System (eg: Student, Book, Faculty, Department etc.)
+
 In this task I will use classes to divide the task into simpler tasks. I will have student and faculty classes. I will also have a class for the library that contains subclasses for borrowing and returning the books. The code will have two excel sheets containing the person (student or faculty) ID and Name. the code will ask the user for his id and check the name of the person of it is exist in the data base of the library (excel sheets). Once it found him it will ask him to choose the book to borrow or if he already has browed book it will ask him if he wants to return it.  The excel sheets will be updated accordingly.The excel sheets looks as shown in following Fig.
 
 ![5](https://user-images.githubusercontent.com/51338728/66729025-23dab780-ee0e-11e9-98c1-c88ea5753d66.png)
@@ -67,6 +68,7 @@ If we continue the code to return the book, the following process will happen.
 
 IV.	Go to https://scikit-learn.org/stable/modules/clustering.html#clusteringand fetch comparison of the clustering algorithms in scikit-learn.
 Hint: Use BeautifulSoup package.
+
 As mentioned in the task I will use BeautifulSoup package to read the data of a comparison table from a URL and store the data into excel sheet.
 The code of that do this task is shown in the following Fig. where two functions were used to read the rows and columns of the table. 
 
@@ -82,6 +84,7 @@ The output excel file is shown in the following Fig.
 
 V.	Pick any dataset from the dataset sheet in the class  sheet  or  online  which includes both numeric and non-numeric features a. Perform exploratory data analysis on the data set (like Handling null values, removing  the  features  not  correlated  to  the  target  class,  encoding  the categorical features, ...) 
 b. Apply the three classification algorithms Naïve Bayes, SVM and KNN on the chosen data set and report which classifier gives better result.
+
 The following code will have a function that convert the nonnumeric data in the data set onto numeric and apply all the requited classifiers and show the accuracy of each classifier. The data set used in this task is the same data set used in the class for the house prices.
 
 ![16](https://user-images.githubusercontent.com/51338728/66729150-27bb0980-ee0f-11e9-9966-4842ab904aec.png)
@@ -92,6 +95,7 @@ The output of the code shows the most correlated features to the target and show
 
 VI.	Choose  any  dataset  of  your  choice.  Apply  K-means  on  the  dataset  and visualize the clusters using matplotlib or seaborn. A. Report which K is the best using the elbow method.
 b.  Evaluate  with  silhouette  score  or  other  scores  relevant  for  unsupervised approaches (before applying clustering clean the data set with the EDA learned in the class)
+
 in this code I used the red-wine quality dataset provided in the class. I excluded the target of this data set to change the problem to unsupervised clustering. The following Fig. shows the code and the results. According to elbow method, I chose K=4 to have 4 clusters which is almost the same clusters in the target column in the red wine data set.
 
 ![18](https://user-images.githubusercontent.com/51338728/66729174-4b7e4f80-ee0f-11e9-8d7c-4302b52ca331.png)
@@ -104,6 +108,7 @@ e. Go through the text in the file
 f. Find all the sentences with the most repeated tri-grams
 g. Extract those sentences and concatenate
 h. Print the concatenated result
+
 the following code will do the requested tasks one by one and print the results as follows:
 
 ![19](https://user-images.githubusercontent.com/51338728/66729193-681a8780-ee0f-11e9-857c-5d2138ca0ec8.png)
